@@ -1,0 +1,26 @@
+//input
+#include <iostream>
+#include <string.h>
+using namespace std;
+int main()
+{
+	//int, float, double, character, void
+	//array of characters
+	char name[30];
+	char address[50];
+	int age;
+	cout << "Enter name ";
+	gets(name);
+	cout << "Enter age ";
+	cin >> age;
+	cin.ignore();
+	cout << "Enter address ";
+	gets(address);
+	//cin >>  name;
+	cout << " " << name << endl;
+	cout << " " << age << endl;
+	cout << " " << address << endl;
+		
+	
+	return 0;
+}
