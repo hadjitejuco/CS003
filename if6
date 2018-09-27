@@ -1,0 +1,28 @@
+// Program to create Menu Based ( Choice Based )
+// Program for Temperature Conversion.
+#include <iostream>
+using namespace std;
+int main()
+{
+	int choice;
+ 	float temp, cnvtemp;
+	cout << "\n Temp. conversation menu : ";
+ 	cout << "\n 1. farenhit to celsius.";
+ 	cout << "\n 2. celsius to farenhit.";
+ 	cout << "\n Enter your choice  : ";
+ 	cin >> choice;
+ 	if(choice == 1)
+ 	{
+  		cout << "\n Enter temp. in farenheit : ";
+  		cin >> temp;
+  		cnvtemp = (temp-32) / 1.8;
+  		cout << "\n The temp in celsius is = " << cnvtemp;
+  	}
+  	else
+  	{
+  		cout << "\n Enter temp in celsius : ";
+  		cin >> temp;
+  		cnvtemp = (1.8 * temp) + 32;
+  		cout << "\n The temp in farenhit is = " << cnvtemp;
+  	}
+}
