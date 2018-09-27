@@ -1,0 +1,29 @@
+conditional statements
+true or false
+1. if
+	simple if
+		if (condition)
+			statement_true;
+		if (condition)
+			statement_true;	
+	if else
+		if (condition)
+			statement_true;	
+		else
+			statement_false;	
+	if else if else
+		if (condition_1)
+			statement_1;
+		else if (condition2)
+			statement_2;
+		else if (condition3)
+			statement_3;
+		else if (condition_n)
+			statement_n;
+		else
+			statement;
+	nested if
+2. switch statement 
+
+Relational operators -> <,<=,>,>=,==,!=
+Logical operators -> AND OR NOT
