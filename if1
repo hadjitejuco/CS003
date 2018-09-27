@@ -1,0 +1,17 @@
+//simple if -> x > 100 
+#include <iostream>
+using namespace std;
+int main()
+{
+	int  x;
+	cout << " Enter a number ::: ";
+	cin >> x;
+	if( x > 100 ) //101
+	{
+		cout << "\n Number is greater than 100."; //true
+	}
+	if( x < 100 ) //90
+	{
+		cout << "\n Number is less than 100.";	//true
+	}
+}
