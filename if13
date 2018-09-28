@@ -1,0 +1,38 @@
+/*Write  a    program  to  display  the  high  school  level  of  a  student,  
+based  on  its  year-entry.  For  example,  the year-entry  1  means  
+the  student  is  a  freshman,  2  for  sophomore,  and  so  on. 
+Here  are  the  given  criteria:
+Year-entry  number          High  –  School  Level
+1					Freshman
+2					Sophomore
+3					Junior
+4					Senior
+
+Other  entry  no.  “Out-of-School”
+*/
+#include <iostream>
+using namespace std;
+int main(){
+	int ylevel;
+	cout << "Enter Year Level::";
+	cin >> ylevel;
+	if (ylevel==1)
+		cout << "Freshmen";
+	else if (ylevel==2)
+		cout << "Sophomore"
+	else if (ylevel==3)
+		cout << "Junior"
+	else if (ylevel==4)
+		cout << "Senior"
+	else 
+		cout << "Out-of-School"
+	return 0;
+}
+
+
+
+
+
+
+
+
