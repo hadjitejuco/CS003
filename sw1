@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int ylevel;
+	cout << "Enter Year Level::";
+	cin >> ylevel;
+	switch(ylevel){
+		case 1: cout << "Freshmen";break;	
+		case 2: cout << "Sophomore";break;
+		case 3: cout << "Junior";break;
+		case 4: cout << "Senior";break;
+		default:cout << "Out-of-School";break;
+	}
+	return 0;
+}
