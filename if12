@@ -1,0 +1,19 @@
+/*Write  a  program  that  determines  if  the  input  letter  
+is  a  VOWEL  or  CONSONANT.  
+The  vowels  are  :  A  E  I  O  U  whilethe  consonants  
+are  the  remaining  letters  of  the  alphabet.  
+Your  program  must  be  able  to  handle  a  capital  or 
+smallinput  letter.*/
+#include <iostream>
+#include <string.h>
+using namespace std;
+int main(){ 
+	char  let,clet;    
+	cout << "\n  Enter  a  letter:"; 
+	cin >> let;
+   	clet  =  toupper(let);    
+	if  (clet=='A'  ||  clet=='E'  ||  clet=='I'  ||  clet=='O'  || clet =='U')        
+		cout << "\n  Its  a  VOWEL!";  
+	else          
+		cout << "\n  Its  a  CONSONANT!";
+}
