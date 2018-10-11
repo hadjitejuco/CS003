@@ -1,0 +1,14 @@
+//for4 
+//Enter lower and upper limit
+//display the numbers in reverse order
+#include <iostream>
+using namespace std;	
+int main(){				
+	int i, n,m; 			
+	cout << "Enter lower and upper limit ";
+	cin >> n >> m;		
+	for (i=m;i>=n;i--){
+		cout << " " << i;
+	}
+	return 0;
+}
