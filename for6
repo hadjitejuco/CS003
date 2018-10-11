@@ -1,0 +1,16 @@
+//for6
+//enter lower and upper limit
+//display number that are odd
+#include <iostream>
+using namespace std;	
+int main(){				
+	int i, n,m; 			
+	cout << "Enter lower and upper limit ";
+	cin >> n >> m;		
+	for (i=n;i<=m;i++){
+		if (i%2==1)
+			cout << " " << i;
+	}
+	return 0;
+}
+
