@@ -1,0 +1,11 @@
+//display 1 - 10 (FOR LOOP)
+#include <iostream>
+using namespace std;	//	i i<=10 cout  i++
+int main(){				    //	1  t     1     2
+	int i; 	//loop		  //     t     2     3
+	//    1    2 	4	    //     t     3     4
+	for (i=1;i<10;i++){ //     t     10    11
+		cout << " " << i;//3// f  
+	}
+	return 0;
+}
