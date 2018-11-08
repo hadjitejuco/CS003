@@ -1,0 +1,28 @@
+//trace matrix
+#include <iostream>
+using namespace std;
+int main(){
+	int n,m,i,j,a[10][10],t=0;
+	cout <<"Enter order of matrix";
+	cin >> n >> m;
+	cout << "Enter "<<n<<"X"<<m<<" matrix\n";
+	for (i=1;i<=n;i++)
+		for (j=1; j<=m;j++)
+			cin >> a[i][j];
+	cout <<"\nGiven matrix is \n";
+	for (i=1; i<=n;i++){
+		for (j=1; j<=m;j++)
+			cout << " " << a[i][j];
+		cout << "\n";
+	}	
+	if (m==n){
+		for (i=1; i<=n;i++)
+			for (j=1; j<=m; j++)
+				if (i==j)
+					t+=a[i][j];
+		cout << "\nTrace matrix is "<<t<<endl;
+	}
+	else
+		cout << "\nNot a square matrix"<<endl;
+	return 0;
+}
